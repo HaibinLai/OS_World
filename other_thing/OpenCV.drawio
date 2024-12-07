@@ -1,0 +1,355 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="BbVDeHt7oPSIbPUmV8b2">
+    <mxGraphModel dx="1820" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-23" value="V4L2(Video for Linux 2)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-1" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-2" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="120" y="496" as="sourcePoint" />
+            <mxPoint x="590" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;User Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kernel Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-5" target="9XKzTEhM_xCf1PbHg__9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-5" value="USB Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-6" target="9XKzTEhM_xCf1PbHg__9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-6" value="MIPI Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-7" target="9XKzTEhM_xCf1PbHg__9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-7" value="CSI MIPI Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="425" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-8" target="9XKzTEhM_xCf1PbHg__9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-8" target="9XKzTEhM_xCf1PbHg__9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-8" target="9XKzTEhM_xCf1PbHg__9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Backend: 相机&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Frontend：图像处理系统&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-10" value="interface API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-12" value="Image Stream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-13" value="Hardware Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-19" target="9XKzTEhM_xCf1PbHg__9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-19" value="USB Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="425" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-21" value="Video Capture" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-22" value="cvtColor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-26" target="9XKzTEhM_xCf1PbHg__9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-26" target="9XKzTEhM_xCf1PbHg__9-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="240" />
+              <mxPoint x="490" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-26" target="9XKzTEhM_xCf1PbHg__9-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-26" value="libcamera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="258" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-104" target="9XKzTEhM_xCf1PbHg__9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-29" value="OpenCV library Backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="177" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-31" value="OpenCV Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="70" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-34" target="9XKzTEhM_xCf1PbHg__9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-34" target="9XKzTEhM_xCf1PbHg__9-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="340" />
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="368" as="sourcePoint" />
+            <mxPoint x="170" y="216" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="338" />
+              <mxPoint y="338" />
+              <mxPoint y="238" />
+              <mxPoint x="170" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-34" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-39" value="libcamera-hello" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="178" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-41" target="9XKzTEhM_xCf1PbHg__9-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-41" value="V4L2(Video for Linux 2)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="354.5" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-42" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="760" y="337.5" as="sourcePoint" />
+            <mxPoint x="1230" y="337.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-43" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="760" y="490.5" as="sourcePoint" />
+            <mxPoint x="1230" y="490.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-44" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;User Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="174.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-45" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kernel Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="384.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-47" target="9XKzTEhM_xCf1PbHg__9-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-47" value="USB Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="564.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-49" target="9XKzTEhM_xCf1PbHg__9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-49" value="MIPI Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="564.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-51" target="9XKzTEhM_xCf1PbHg__9-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-51" value="CSI MIPI Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="419.5" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-53" target="9XKzTEhM_xCf1PbHg__9-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-53" value="USB Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="838" y="419.5" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-56" target="9XKzTEhM_xCf1PbHg__9-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-56" target="9XKzTEhM_xCf1PbHg__9-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="975" y="281.5" />
+              <mxPoint x="1130" y="281.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-56" value="rapstill library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="915" y="291.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-57" value="Raspberry PI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="291.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-59" target="9XKzTEhM_xCf1PbHg__9-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-59" value="OpenCV library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="201.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-60" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="142.5" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-62" target="9XKzTEhM_xCf1PbHg__9-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-62" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="364.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-63" value="raspistill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="211.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-64" value="老板树莓派" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-66" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;User Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-67" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kernel Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-69" target="9XKzTEhM_xCf1PbHg__9-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-69" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1004.5" width="330" height="165.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-70" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="770" y="969.5" as="sourcePoint" />
+            <mxPoint x="1240" y="969.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-71" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="770" y="1187.5" as="sourcePoint" />
+            <mxPoint x="1240" y="1187.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-72" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;User Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="824.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-73" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kernel Space&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1034.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-75" target="9XKzTEhM_xCf1PbHg__9-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-75" value="USB Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1214.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-77" target="9XKzTEhM_xCf1PbHg__9-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-77" value="MIPI Camera" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1214.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-79" target="9XKzTEhM_xCf1PbHg__9-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-79" value="CSI MIPI Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1018" y="1116.5" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-81" target="9XKzTEhM_xCf1PbHg__9-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-81" value="USB Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="848" y="1116.5" width="114" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-84" target="9XKzTEhM_xCf1PbHg__9-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-84" target="9XKzTEhM_xCf1PbHg__9-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-84" value="rapstill library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="925" y="921.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-85" value="Raspberry PI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="921.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-87" target="9XKzTEhM_xCf1PbHg__9-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-87" value="OpenCV library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="831.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-88" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="937.5" y="772.5" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-90" target="9XKzTEhM_xCf1PbHg__9-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-90" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1014.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-91" value="rpicam-still" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="838.5" width="120" height="28.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-92" value="新板树莓派" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-93" value="OpenCV在树莓派上时，会默认先去寻找raspstill library&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;raspstill library会跟OpenCV对接，但是它无法跟V4L2对接&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-96" target="9XKzTEhM_xCf1PbHg__9-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-96" value="libcamera library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="921.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-99" value="解决方案：&lt;div&gt;1. 直接删除rapstill library代码，直接和V4L2 Library对接&lt;/div&gt;&lt;div&gt;2. 在OpenCV层更改API，对接libcamera&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1315" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-102" value="Picamera library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="258" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XKzTEhM_xCf1PbHg__9-29" target="9XKzTEhM_xCf1PbHg__9-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="177" as="sourcePoint" />
+            <mxPoint x="335" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-104" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="130" width="60" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-107" value="&lt;pre style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 11.9px; margin-top: 0px; margin-bottom: var(--base-size-16); overflow-wrap: normal; padding: var(--base-size-16); overflow: auto; line-height: 1.45; color: rgb(31, 35, 40); background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-radius: 6px; text-align: start;&quot; class=&quot;notranslate&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); padding: 0px; margin: 0px; background: transparent; border-radius: 6px; word-break: normal; border: 0px; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;&quot; class=&quot;notranslate&quot;&gt;/dev/video0&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1116.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-112" value="V4L2(Video for Linux 2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="698" y="1116.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-123" value="raspistill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="841.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-126" value="&lt;span style=&quot;font-family: &amp;quot;Nunito Sans&amp;quot;; font-size: 11px; font-weight: 700; text-align: justify;&quot;&gt;An open source camera stack and framework for Linux, Android, and ChromeOS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="253.5" width="180" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-127" value="Gstreamer library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="9XKzTEhM_xCf1PbHg__9-133" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="883" width="20" height="21" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

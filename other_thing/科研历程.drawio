@@ -1,0 +1,28 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="EO31Ky64bIaRGlELrK3C">
+    <mxGraphModel dx="943" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eMWjqdcZX79byzSV-fd2-2" value="大一升大二 暑假&lt;div&gt;Linux&lt;/div&gt;&lt;div&gt;C, Shell, Vim&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eMWjqdcZX79byzSV-fd2-3" value="大二上&lt;div&gt;《计算机系统要素》&lt;/div&gt;&lt;div&gt;《计算机操作系统》&lt;/div&gt;&lt;div&gt;MPI，BLAS，FPGA&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eMWjqdcZX79byzSV-fd2-4" value="大二下&lt;div&gt;论文&lt;/div&gt;&lt;div&gt;《深入理解计算机系统》50%&lt;/div&gt;&lt;div&gt;《计算机体系结构：量化研究方法》&lt;/div&gt;&lt;div&gt;CUDA&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eMWjqdcZX79byzSV-fd2-5" value="大二升大三 暑假&lt;div&gt;《CUDA C Programming》&lt;/div&gt;&lt;div&gt;论文调研&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eMWjqdcZX79byzSV-fd2-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="900" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
